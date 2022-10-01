@@ -1,13 +1,45 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.e6c13ad2.css",
-    "main.js": "/memory-game/static/js/main.579a7a5a.js",
+    "main.css": "/memory-game/static/css/main.dc9e88ab.css",
+    "main.js": "/memory-game/static/js/main.22c14ca2.js",
+    "static/media/junkrat.png": "/memory-game/static/media/junkrat.82ec01219df67a013874.png",
+    "static/media/lucio.png": "/memory-game/static/media/lucio.630119de2e734ba15976.png",
+    "static/media/mercy.png": "/memory-game/static/media/mercy.c2e1e8e63641cfa9b9f1.png",
+    "static/media/winston.png": "/memory-game/static/media/winston.b5045766f3ab9772b121.png",
+    "static/media/moira.png": "/memory-game/static/media/moira.edb33317212acd3d59bb.png",
+    "static/media/mei.png": "/memory-game/static/media/mei.ead4e645f027b3ce0964.png",
+    "static/media/tracer.png": "/memory-game/static/media/tracer.cc9de0a02de1892e5e68.png",
+    "static/media/orisa.png": "/memory-game/static/media/orisa.c0bc105e75c14e994e37.png",
+    "static/media/brigitte.png": "/memory-game/static/media/brigitte.90cc521db6545bf55537.png",
+    "static/media/reinhardt.png": "/memory-game/static/media/reinhardt.5010347a3fd57c942269.png",
+    "static/media/torbjorn.png": "/memory-game/static/media/torbjorn.b0d9d524c39fec191889.png",
+    "static/media/ashe.png": "/memory-game/static/media/ashe.1c4335c283b01f5e02e1.png",
+    "static/media/ana.png": "/memory-game/static/media/ana.74158c661f39a22d5523.png",
+    "static/media/dva.png": "/memory-game/static/media/dva.79bfbbb9e252e6fd9fa3.png",
+    "static/media/soldier.png": "/memory-game/static/media/soldier.0276b1659c5802965ffa.png",
+    "static/media/symmetra.png": "/memory-game/static/media/symmetra.5081b1e2f47fc651bc49.png",
+    "static/media/roadhog.png": "/memory-game/static/media/roadhog.517be68c3f5ce3bd20ee.png",
+    "static/media/cassidy.png": "/memory-game/static/media/cassidy.cd4b29741e2ac0019a69.png",
+    "static/media/widowmaker.png": "/memory-game/static/media/widowmaker.aeb2c3d45abc68a1bd17.png",
+    "static/media/zarya.png": "/memory-game/static/media/zarya.64e4ec55c2ace5cf9d7c.png",
+    "static/media/hanzo.png": "/memory-game/static/media/hanzo.5a1abc9ac6928c9d4927.png",
+    "static/media/genji.png": "/memory-game/static/media/genji.0db05e431ab50cf3c6ea.png",
+    "static/media/pharah.png": "/memory-game/static/media/pharah.8cc7b8a09893a24c7ca3.png",
+    "static/media/zenyatta.png": "/memory-game/static/media/zenyatta.d6427503d9e1ca35d349.png",
+    "static/media/sigma.png": "/memory-game/static/media/sigma.d43764a4643c293598ee.png",
+    "static/media/sombra.png": "/memory-game/static/media/sombra.53f35b107610dbee54bb.png",
+    "static/media/echo.png": "/memory-game/static/media/echo.d821d6e489d42b9aa397.png",
+    "static/media/bastion.png": "/memory-game/static/media/bastion.5a55e72a4e3501417f69.png",
+    "static/media/ball.png": "/memory-game/static/media/ball.a68a3953442906fddcd9.png",
+    "static/media/reaper.png": "/memory-game/static/media/reaper.d9ea565328dca5dc023b.png",
+    "static/media/doomfist.png": "/memory-game/static/media/doomfist.b146fe88bd9ab48b0d7b.png",
+    "static/media/baptise.png": "/memory-game/static/media/baptise.8e1ec0b0b6b743038a46.png",
     "index.html": "/memory-game/index.html",
-    "main.e6c13ad2.css.map": "/memory-game/static/css/main.e6c13ad2.css.map",
-    "main.579a7a5a.js.map": "/memory-game/static/js/main.579a7a5a.js.map"
+    "main.dc9e88ab.css.map": "/memory-game/static/css/main.dc9e88ab.css.map",
+    "main.22c14ca2.js.map": "/memory-game/static/js/main.22c14ca2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.579a7a5a.js"
+    "static/css/main.dc9e88ab.css",
+    "static/js/main.22c14ca2.js"
   ]
 }
