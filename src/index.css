@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --yellow: #f99e1a;
+  --grey: #43484c;
+  --dark-blue: #405275;
+  --light-blue: #218ffe;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: rgb(67, 72, 76);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 72, 76, 1) 0%,
+    rgba(64, 82, 117, 1) 35%,
+    rgba(33, 143, 254, 1) 100%
+  );
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  gap: 6px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 0.493);
+  border-radius: 1px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover > .info {
+  color: #1a325e;
+  background-color: white;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 0.8px;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  color: white;
+  background-color: rgba(40, 53, 79, 0.9);
+  justify-content: center;
+  font-style: italic;
 }
