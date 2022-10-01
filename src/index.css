@@ -23,6 +23,22 @@ body {
     rgba(64, 82, 117, 1) 35%,
     rgba(33, 143, 254, 1) 100%
   );
+  position: relative;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  background-color: var(--grey);
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--yellow);
 }
 
 .card-wrapper {
