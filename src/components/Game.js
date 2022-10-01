@@ -9,6 +9,26 @@ import IMAGES from "../images/images";
 const Game = () => {
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
+  const [clickedArray, addClickedItem] = useState([]);
+
+  function checkWin(e) {
+    const target = e.currentTarget.id;
+
+    if (clickedArray.includes(target)) {
+      console.log("Lose");
+      if (score > highScore) setHighScore(score);
+      reset();
+      return;
+    }
+
+    addClickedItem((prevState) => [...prevState, target]);
+    setScore(score + 1);
+  }
+
+  function reset() {
+    setScore(0);
+    addClickedItem([]);
+  }
 
   return (
     <main className="main">
@@ -19,6 +39,7 @@ const Game = () => {
             key={character.name}
             src={character.src}
             name={character.name}
+            checkWin={checkWin}
           />
         ))}
       </div>
