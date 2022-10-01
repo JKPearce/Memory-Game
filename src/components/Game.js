@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import Scores from "./Scores";
 import IMAGES from "../images/images";
 
 //creates cards
@@ -11,11 +12,7 @@ const Game = () => {
 
   return (
     <main className="main">
-      <div className="scores">
-        <p>Current Score: {score}</p>
-        <p>High Score: {highScore}</p>
-        <p>Highest possible score: {IMAGES.length}</p>
-      </div>
+      <Scores score={score} highScore={highScore} total={IMAGES.length} />
       <div className="card-wrapper">
         {IMAGES.map((character) => (
           <Card
