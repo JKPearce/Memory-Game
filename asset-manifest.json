@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.dc9e88ab.css",
-    "main.js": "/memory-game/static/js/main.b887bfc6.js",
+    "main.css": "/memory-game/static/css/main.6a9d7aa4.css",
+    "main.js": "/memory-game/static/js/main.ad4b666d.js",
     "static/media/junkrat.png": "/memory-game/static/media/junkrat.82ec01219df67a013874.png",
     "static/media/lucio.png": "/memory-game/static/media/lucio.630119de2e734ba15976.png",
     "static/media/mercy.png": "/memory-game/static/media/mercy.c2e1e8e63641cfa9b9f1.png",
@@ -35,11 +35,11 @@
     "static/media/doomfist.png": "/memory-game/static/media/doomfist.b146fe88bd9ab48b0d7b.png",
     "static/media/baptise.png": "/memory-game/static/media/baptise.8e1ec0b0b6b743038a46.png",
     "index.html": "/memory-game/index.html",
-    "main.dc9e88ab.css.map": "/memory-game/static/css/main.dc9e88ab.css.map",
-    "main.b887bfc6.js.map": "/memory-game/static/js/main.b887bfc6.js.map"
+    "main.6a9d7aa4.css.map": "/memory-game/static/css/main.6a9d7aa4.css.map",
+    "main.ad4b666d.js.map": "/memory-game/static/js/main.ad4b666d.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc9e88ab.css",
-    "static/js/main.b887bfc6.js"
+    "static/css/main.6a9d7aa4.css",
+    "static/js/main.ad4b666d.js"
   ]
 }
